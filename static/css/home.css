@@ -1,0 +1,16 @@
+body{background-color: #9d1620;}
+/*
+
+.divclass .fa-play-circle-o {  font-size:100px;
+            color:white;
+            cursor:pointer;
+            }
+
+.divclass:hover .fa-play-circle-o:before{font-size:120px; color: inherit;}
+*/
+.divclass .fa-play-circle-o { color:white;}
+a{ color: inherit; }
+p{color:white;}
+i{color:white;}
+li{color:white;}
+h2{color:white; margin-top: 6px;}

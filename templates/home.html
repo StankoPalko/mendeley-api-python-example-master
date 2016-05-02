@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="/static/css/home.css">
+    <meta charset="utf-8">
+    <title>Mendeley Python Example</title>
+
+      <script>
+          $(document).ready(function(){
+               $(".aloha").css({ fontSize : '100px' });
+          $('.aloha').hover(function() {
+             $(this).stop().animate({ fontSize : '120px' });
+          },
+        function() {
+        $(this).stop().animate({ fontSize : '100px' });
+        });
+                  });
+      </script>
+  </head>
+  <body>
+  <div class ="container" style="padding-top: 10px">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-1 ">
+         <span> <i class="fa fa-bar-chart fa-3x "></i> </span>
+        </div>
+        <div class="col-sm-11">
+          <h2 class="col-sm-9" >Účel</h2>
+          <p class="col-sm-9"> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-1">
+         <span > <i class="fa fa-question-circle-o fa-3x"></i> </span>
+        </div>
+        <div class="col-sm-11">
+            <h2 class="col-sm-9" >Čo aplikácia zbiera ?</h2>
+            <p class="col-sm-9"> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+        </div>
+      </div>
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-1">
+         <span > <i class="fa fa-cogs fa-3x"></i> </span>
+        </div>
+        <div class="col-sm-11">
+            <h2 class="col-sm-9" >Postup</h2>
+            <ol class="col-sm-8 col-sm-offset-1" type="1">
+            <li>Synchronizácia Mendeleya</li>
+            <li>Kliknutie na tlačidlo play</li>
+            <li>Autorizácia pristupu</li>
+            <li>hotovo</li>
+            </ol>
+        </div>
+      </div>
+      <div class="divclass col-sm-6 col-sm-offset-3" >
+          <a class="col-sm-2 col-sm-offset-4 aloha" href="{{login_url}}"> <i class="fa fa-play-circle-o"  aria-hidden="true"></i></a>
+      </div>
+  </div>
+  </body>
+</html>
